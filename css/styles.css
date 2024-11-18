@@ -10,10 +10,21 @@ h1 {
   margin: 0 auto;
   padding: 20px;
 }
-a {
+header a {
   font-size: 20px;
   text-decoration: none;
   padding: 10px;
+  color: darkgoldenrod;
+}
+header a::after {
+  color: darkgoldenrod;
+}
+header a:hover {
+  color: goldenrod;
+}
+
+a {
+  text-decoration: none;
   color: darkgoldenrod;
 }
 a::after {
